@@ -1,0 +1,58 @@
+@import "colors-type";
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 5.4rem;
+    text-align: center;
+}
+.title{
+    
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.sub-title{
+    margin-bottom: 2rem;
+}
+.subsc{
+    display: flex;
+    margin-left: 23.5rem;
+    text-align: center;
+}
+input{
+    padding: 1.1rem 2rem;
+    border-radius: 5rem;
+    width:45%;
+    border: 1px solid hsl(223, 100%, 88%);
+}
+.btn{
+    transform: translateX(15px);
+    padding: 1.1rem 2rem;
+    border-radius: 5rem;
+    border: transparent;
+    width: 20%;
+    align-self: center;
+}
+.img{
+    width: 50%;
+    margin: 5rem 0 0 23rem;
+}
+footer{
+    margin: 4rem 0 5rem 42.5rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    transform: translate(-5rem);
+    img{
+        padding-left: 13px;
+    }
+}
+footer p{
+    transform: translateX(-8rem);
+    margin-top: 1.5rem;
+}
+@import "@media";
